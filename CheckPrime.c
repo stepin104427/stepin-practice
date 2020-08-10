@@ -6,11 +6,15 @@ short checkPrime(int n)
   short primeFlag = 1;
   for(int i = 2; i <= sqrt(n); i++)
   {
-    if(n == 0 || n < 0 || n % i == 0)
+    if(n % i == 0)
     {
       primeFlag = 0;
       break;
     }
+  }
+  if(n <= 1)
+  {
+    primeFlag = 0;
   }
   return primeFlag;
 
