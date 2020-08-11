@@ -1,6 +1,16 @@
+/**
+* @file CheckPrime.c
+*
+*/
 #include <stdio.h>
 #include <math.h>
 
+/**
+* Check if a number is prime or note
+* @param[in] Number to be checked
+* @return If number is prime or note
+* @note Returns 1 if prime and 0 if not prime
+*/
 short checkPrime(int n)
 {
   short primeFlag = 1;
@@ -20,6 +30,10 @@ short checkPrime(int n)
 
 }
 
+/**
+* Main entry point of the program.
+*
+*/
 int main()
 {
   int n;
