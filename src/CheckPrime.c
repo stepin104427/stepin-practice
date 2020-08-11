@@ -3,7 +3,6 @@
 *
 */
 #include <stdio.h>
-#include <math.h>
 
 /**
 * Check if a number is prime or note
@@ -14,7 +13,7 @@
 short checkPrime(int n)
 {
   short primeFlag = 1;
-  for(int i = 2; i <= sqrt(n); i++)
+  for(int i = 2; i <= n/2; i++)
   {
     if(n % i == 0)
     {
@@ -28,24 +27,4 @@ short checkPrime(int n)
   }
   return primeFlag;
 
-}
-
-/**
-* Main entry point of the program.
-*
-*/
-int main()
-{
-  int n;
-  printf("Enter a number: ");
-  scanf("%d", &n);
-  if(checkPrime(n))
-  {
-    printf("The number %d is a Prime Number\n", n);
-  }
-  else
-  {
-    printf("The number %d is NOT a Prime Number\n", n);
-  }
-  return 0;
 }
