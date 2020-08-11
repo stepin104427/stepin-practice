@@ -19,4 +19,4 @@ doc:
 	make -C documentation
 
 clean:
-	rm -rf $(PROJECT_NAME)
+	rm -rf $(PROJECT_NAME) documentation/html documentation/latex
