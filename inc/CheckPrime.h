@@ -7,10 +7,10 @@
 
 /**
 * Check if a number is prime or not
-* @param[in] n Number to be checked
-* @return If number is prime or not
+* @param[in] Number Integer to be checked
+* @param[out] primeFlag Integer indicating if number is prime or not
 * @note Returns 1 if prime and 0 if not prime
 */
-int checkPrime(int n);
+int checkPrime(int Number);
 
 #endif
