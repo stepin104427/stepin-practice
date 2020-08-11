@@ -7,7 +7,7 @@
 
 /**
 * Check if a number is prime or not
-* @param[in] Number to be checked
+* @param[in] n Number to be checked
 * @return If number is prime or not
 * @note Returns 1 if prime and 0 if not prime
 */
