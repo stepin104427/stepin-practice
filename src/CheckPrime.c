@@ -10,9 +10,9 @@
 * @return If number is prime or not
 * @note Returns 1 if prime and 0 if not prime
 */
-short checkPrime(int n)
+int checkPrime(int n)
 {
-  short primeFlag = 1;
+  int primeFlag = 1;
   for(int i = 2; i <= n/2; i++)
   {
     if(n % i == 0)
