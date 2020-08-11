@@ -15,8 +15,8 @@ $(PROJECT_NAME): $(SRC)
 run:$(PROJECT_NAME)
 	./${PROJECT_NAME}
 
-	doc:
-		make -C documentation
+doc:
+	make -C documentation
 
 clean:
 	rm -rf $(PROJECT_NAME)
