@@ -21,7 +21,7 @@ void testNegative(void)
   TEST_ASSERT_EQUAL(0, checkPrime(-2));
 }
 
-int test_main(void)
+int testMain(void)
 {
   UNITY_BEGIN();
 
