@@ -5,9 +5,9 @@
 #include <stdio.h>
 
 /**
-* Check if a number is prime or note
+* Check if a number is prime or not
 * @param[in] Number to be checked
-* @return If number is prime or note
+* @return If number is prime or not
 * @note Returns 1 if prime and 0 if not prime
 */
 short checkPrime(int n)
