@@ -3,7 +3,7 @@
 
 void setUp(){}
 
-void tearDown)(){}
+void tearDown(){}
 
 void testPrime(void)
 {
