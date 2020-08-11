@@ -7,18 +7,18 @@ void tearDown(){}
 
 void testPrime(void)
 {
-  TEST_ASSERT_EQUAL(1, checkPrime(37));
-  TEST_ASSERT_EQUAL(1, checkPrime(97));
-  TEST_ASSERT_EQUAL(0, checkPrime(10));
+  TEST_ASSERT_EQUAL_MESSAGE(1, checkPrime(37), "Standard test case[37]");
+  TEST_ASSERT_EQUAL_MESSAGE(1, checkPrime(97), "Standard test case[97]");
+  TEST_ASSERT_EQUAL_MESSAGE(0, checkPrime(10), "Standard test case[10]");
 }
 void testOneZero(void)
 {
-  TEST_ASSERT_EQUAL(0, checkPrime(1));
-  TEST_ASSERT_EQUAL(0, checkPrime(0));
+  TEST_ASSERT_EQUAL_MESSAGE(0, checkPrime(1), "Border test case[1]");
+  TEST_ASSERT_EQUAL_MESSAGE(0, checkPrime(0), "Border test case[0]");
 }
 void testNegative(void)
 {
-  TEST_ASSERT_EQUAL(0, checkPrime(-2));
+  TEST_ASSERT_EQUAL_MESSAGE(0, checkPrime(-2), "Negative test case[-2]");
 }
 
 int testMain(void)
