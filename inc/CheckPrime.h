@@ -11,6 +11,6 @@
 * @return If number is prime or note
 * @note Returns 1 if prime and 0 if not prime
 */
-int CheckPrime(int n);
+int checkPrime(int n);
 
 #endif
